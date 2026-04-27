@@ -41,6 +41,3 @@ Notes are stored in localStorage under `sticky-board-data` as an array of object
 - No build step — plain static files.
 - To modify appearance, edit [style.css](style.css).
 - To change behavior, edit [script.js](script.js).
-
-## License
-MIT — modify as needed.
