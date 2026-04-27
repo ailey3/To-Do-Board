@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>To-Do Paper Board</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href=".\assets\webico.ico">
+</head>
+<body>
+  <div class="toolbar">
+    <button class="btn" id="addStickerBtn">➕ New Note</button>
+    <div class="color-presets">
+      <div class="color-dot" style="background: #f4d03f;" data-color="#f4d03f"></div>
+      <div class="color-dot" style="background: #f5b7b1;" data-color="#f5b7b1"></div>
+      <div class="color-dot" style="background: #a9dfbf;" data-color="#a9dfbf"></div>
+      <div class="color-dot" style="background: #aed6f1;" data-color="#aed6f1"></div>
+      <div class="color-dot" style="background: #d7bde2;" data-color="#d7bde2"></div>
+      <div class="color-dot" style="background: #fadbd8;" data-color="#fadbd8"></div>
+      <input type="color" id="customColorPicker" style="width: 30px; height: 30px; border: none; background: transparent; cursor: pointer;">
+    </div>
+    <button class="btn" id="clearAllBtn">🗑️ Clear All</button>
+  </div>
+
+  <div class="workspace" id="workspace"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
